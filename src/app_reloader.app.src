@@ -1,0 +1,12 @@
+{application, app_reloader,
+ [
+  {description, ""},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { app_reloader, []}},
+  {env, []}
+ ]}.
